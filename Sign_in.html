@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>Log In</title> 
+  <link rel="stylesheet" type="text/css" href="Sign_in.css"> 
+  <link rel="icon" type="icon_path" href="tulip.jpg">
+</head> 
+<body style="text"> 
+  <style type="text/css"></style> 
+      <!--Log in page--> 
+      <div id="id01" class="modal1"> 
+    <div class="imgcontainer"> 
+       
+      <img src="anime.jpg 
+     " alt="Avatar" class="avatar"> 
+    </div> 
+ 
+    <div class="container"> 
+      <label for="uname"> <b>Username </b> </label> 
+      <input type="text" placeholder="Enter Username" name="uname" required><br><br> 
+ 
+      <label for="psw"><b>Password</b></label> 
+      <input type="password" placeholder="Enter Password" name="psw" required><br><br> 
+      
+        <input type="checkbox" checked="checked" name="remember"> Remember me 
+      </label><br> 
+    </div> 
+ 
+      <button type="submit"><a href="login_success.html">Login</button></a>
+      <label> 
+ 
+    <div class="container" > 
+       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn"><a href="ICT_PBL.html">Cancel</button> </a>
+        
+<!--sign in page--> 
+  <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;" 
+  class="crbt"> 
+    Create an account 
+  </button> 
+    <div id="id02" class="modal"> 
+   
+  <form class="modal-content animate" action="/action_page.php" method="post"> 
+    <div class="container"> 
+  </div> 
+    <div class="container2"> 
+      <label for="name"><b> First name </b> </label> 
+      <input type="text" placeholder="First Name" name="name"> 
+ 
+      <label for="name"><b> Last Name </b> </label> 
+      <input type="text" placeholder="Last Name" name="name"> 
+ 
+      <label for="gmail"><b>Gmail</b></label> 
+      <input type="text" placeholder="Enter Username" name="gmail" required> 
+ 
+      <label for="psw"><b>Password</b></label> 
+      <input type="password" placeholder="Enter Password" name="psw" required> 
+ 
+      <div class="container" > 
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn"><a href="login_success.html">Sign in</button> </a>
+      <button class="sign_in" type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn"><a href="ICT_PBL.html">Cancel</button></a>
+    </div> 
+</form> 
+ 
+</html>
